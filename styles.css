@@ -1,0 +1,77 @@
+
+body{
+margin:0;
+text-align: center;
+font-family: 'Merriweather', serif;
+line-height: 2;
+}
+h1
+{
+margin:0 auto 0 auto;
+padding-top: 100px;
+font-family: 'Niconne', cursive;
+color: #ce97b0;
+font-size: 4rem;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+color: #114e60;
+font-weight: normal;
+line-height:1;
+}
+h3
+{color: #114e60;}
+a{color: #114e60;}
+
+/******************************Div container****************************/
+.top-cloud
+{
+  height: 100px;
+  width: 150px;
+  position: absolute;
+
+  right:300px;
+  top:50px;
+}
+.bottom-cloud
+{
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  top:200px;
+  left: 200px;
+}
+.top-container
+  {
+    background-color: #fbc6a4;
+    position: relative;
+    }
+  .middle-container
+    {
+      background-color: #fbc6a4;
+
+    }
+    .profile{
+    width: 80%;
+    margin: auto;
+    }
+   .skills{
+      width:80%;
+      margin: auto;
+    }
+    .education{
+      width: 80%;
+      margin: auto;
+    }
+    .Summary{
+      width: 80%;
+      margin: auto;
+    }
+    .contact-me{
+      width: 80%;
+      margin:auto;
+    }
+.bottom-container{
+
+  background-color: #fbc6a4;
+}
