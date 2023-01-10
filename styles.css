@@ -1,186 +1,55 @@
-
-body{
-margin:0;
-text-align: center;
-font-family: 'Merriweather', serif;
-line-height: 2;
-color: #696969;
-}
-#background-video {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
-hr{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  width: 5%;
-  border-top: 5px dotted;
-  border-left: 0;
-  border-bottom: 0;
-  border-right: 0;
-}
-h1
-{
-margin:0 auto 0 auto;
-padding-top: 100px;
-font-family: 'Niconne', cursive;
-color: #f4a9a8;
-font-weight: lighter;
-font-size: 4rem;
-}
-h2{
-font-family: 'Montserrat', sans-serif;
-color: #f4a9a8;
-font-weight: normal;
-line-height:1;
-}
-h3
-{color: #f4a9a8;}
-a{
-  color: #ce97b0;
-  text-decoration:none;
-}
-a:hover
-{
-  color:#faf3f3;
+body {
+  background: #1B1B25;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-/******************************Div container****************************/
-.top-cloud
-{
-  height: 100px;
-  width: 150px;
-  position: absolute;
-
-  right:100px;
-  top:50px;
-}
-.bottom-cloud
-{
-  height: 100px;
-  width: 150px;
-  position: absolute;
-  top:200px;
-  left: 100px;
-}
-.top-container
-  {
-    background-color: #e4d3cf;
-    position: relative;
-    }
-  .middle-container
-    {
-      background-color: #faf3f3;
-      position: relative;
-    }
-    /*************************Div class********************************/
-    .skills{
-      width: 80%;
-      margin:auto;
-      text-align: left;
-    }
-    .Awards{
-      width: 80%;
-      margin:auto;
-      padding: 0;
-    }
-    .skill-row2{
-      width: 80%;
-      margin: auto;
-      text-align:left;
-
-    }
-    .profile{
-      width: 80%;
-      margin: auto;
-    }
-    .summary-img{
-      height: 100px;
-      width:100px;
-      float: right;
-    }
-    .Education-img{
-       height: 100px;
-       width: 100px;
-      float: right;
-    }
-
-  .skills-img{
-      height: 100px;
-      weight:100px;
-      float:right;
-    }
-    .trophy-img{
-      margin: 0;
-      height: 50px;
-      weight:50px;
-      float:left;
-
-    }
-    .worker-img{
-      height: 100px;
-      weight:100px;
-      float:right;
-    }
-    .education{
-      width: 80%;
-      margin: auto;
-      text-align: left;
-    }
-    .Summary{
-      width: 80%;
-      margin: auto;
-      text-align:left;
-    }
-    .contact-me{
-      width: 80%;
-      margin:auto;
-
-    }
-    .Awards{
-      width: 80%;
-      margin: auto;
-      text-align: left;
-    }
-    .education-tbl{
-      text-align: left;
-    }
-.bottom-container{
-margin-top: 50px;
-  background-color: #f4a9a8;
+.separator {
+  width: 30%;
 }
 
-/******Button generator*******/
-.btn {
-  background: #fcaf44;
-  background-image: -webkit-linear-gradient(top, #fcaf44, #e0be38);
-  background-image: -moz-linear-gradient(top, #fcaf44, #e0be38);
-  background-image: -ms-linear-gradient(top, #fcaf44, #e0be38);
-  background-image: -o-linear-gradient(top, #fcaf44, #e0be38);
-  background-image: linear-gradient(to bottom, #fcaf44, #e0be38);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.title {
+  margin-top: 100px;
+  margin-bottom: 10px;
+
+  a {
+    color: #DB4D57;
+
+    &:hover {
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+
+  hr {
+    width: 75%;
+  }
 }
 
-.btn:hover {
-  background: #ffc936;
-  background-image: -webkit-linear-gradient(top, #ffc936, #edea45);
-  background-image: -moz-linear-gradient(top, #ffc936, #edea45);
-  background-image: -ms-linear-gradient(top, #ffc936, #edea45);
-  background-image: -o-linear-gradient(top, #ffc936, #edea45);
-  background-image: linear-gradient(to bottom, #ffc936, #edea45);
-  text-decoration: none;
+.summary {
+  padding: 20px;
+
+  p {
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+  }
+}
+
+
+.work-experience {
+  padding: 20px;
+
+  .experience-title {
+    margin-top: 50px;
+  }
+
+  .experience-summary {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  p {
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+  }
 }
